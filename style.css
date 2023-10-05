@@ -1,0 +1,51 @@
+html{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabecera */
+header{
+    width: 100%;
+    height: 10%;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+}
+header>img{
+    width: 70px;
+    height: 70px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 320px);
+    grid-template-rows: repeat(4, 320px);
+    gap: 20px;
+}
+
+/* Vista Imágenes Normales */
+img{
+    width: 300px;
+    height: 300px;
+}
+figcaption{
+    text-align: center;
+}
+
+/* Vista Imágenes Destacadas*/
+.importante{
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.importante img{
+    width: 640px;
+    height: 640px;
+}
+
+
