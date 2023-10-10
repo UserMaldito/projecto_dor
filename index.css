@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Header Mobile */
+header{
+    width: 100%;
+    min-height: 10%;
+    background-color: pink;
+    border-bottom: 5px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.user-login{
+    display: inherit;
+    flex-direction: column;
+}
+header>img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+/*Aside - Menú "Desplegable" Mobile*/
+aside{
+    background-color: orange;
+    width: 100%;
+    /* border: 5px solid black; */
+}
+ul{
+    list-style-type: none;
+}
+ul>li{
+    border-bottom: 3px solid white;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+ul>li:hover{
+    border-bottom: 3px solid violet;
+}
+/* Footer Mobile*/
+footer{
+    width: 100%;
+    height: 10%;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/*CSS LINKS GENERAL*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
