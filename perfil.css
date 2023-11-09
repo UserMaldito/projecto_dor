@@ -6,11 +6,14 @@ body{
 header{
     width: 100%;
     min-height: 10%;
-    background-color: pink;
-    border-bottom: 5px solid black;
+    background-color: #534f45;
+    border-bottom: 5px solid #b0a770;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+h3>a{
+     color: #973333; /*b0a770; */
 }
 .user-login{
     display: inherit;
@@ -21,7 +24,7 @@ header>img{
     height: 50px;
 }
 main{
-    background-color: lightblue;
+    background-color: #79403f;
     width: 100%;
     height: 700px;
     overflow: hidden;
@@ -37,7 +40,7 @@ aside{
 footer{
     width: 100%;
     height: 10%;
-    background-color: darkgray;
+    background-color: #7a7a7a;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -55,9 +58,11 @@ a>section{
 
 /*The Main Asides*/
 main>aside{
-    background-color: lightcoral;
+    background-color: #4c1919;
     margin-top: 30px;
-
+}
+aside>*{
+    color: #dacd77;
 }
 #tituloInfo{
     display: inline;
@@ -65,15 +70,20 @@ main>aside{
 }
 .hidden span{
     background-color: black;
+    color: black;
+}
+.hidden span::selection{
+    background-color: #391210;
+    color: #b0a770;
 }
 
 
 
 
 @media (min-width: 424px) and (max-width: 599px){
-    main{
+    /* main{
         background-color: gray;
-    }
+    } */
     header{
         width: 100%;
         min-height: 10%;
@@ -104,9 +114,9 @@ main>aside{
 }
 
 @media (min-width: 600px) and (max-width: 768px){
-    main{
+    /* main{
         background-color: yellow;
-    }
+    } */
     fieldset{
         padding-left: 15%;
         padding-right: 15%;
@@ -115,16 +125,16 @@ main>aside{
 }
 
 @media (min-width: 768px) and (max-width: 1024px){
-    main{
+    /* main{
         background-color: mintcream;
-    }
+    } */
     h3{
         width: 300px;
         text-align: right;
     }
-    header{
+    /* header{
         background-color: lime;
-    }
+    } */
     header>img{
         width: 50px;
         height: 50px;
@@ -136,16 +146,16 @@ main>aside{
 }
 
 @media (min-width: 1024px){
-    main{
+    /* main{
         background-color: green;
-    }
+    } */
     h3{
         width: 200px;
         text-align: right;
     }
-    header{
+    /* header{
         background-color: lightyellow;
-    }
+    } */
     header>img{
         width: 100px;
         height: 60px;
